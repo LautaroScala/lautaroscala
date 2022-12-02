@@ -10,5 +10,10 @@ namespace ThingsLoan.WebAPI.DataAccess.Repositories
         {
 
         }
+
+        public Things GetThingsByDesc(string desc)
+        {
+            return context.Things.FirstOrDefault(x => x.Desc == desc);
+        }
     }
 }

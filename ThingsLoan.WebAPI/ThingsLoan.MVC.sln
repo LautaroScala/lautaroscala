@@ -5,7 +5,10 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThingsLoan.WebAPI", "ThingsLoan.WebAPI.csproj", "{2EA5818F-018F-444A-AB06-04764DFC1623}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThingsLoan.MVC", "..\ThingsLoan.MVC\ThingsLoan.MVC.csproj", "{4DF01C4E-A90F-4C42-B563-AB2DEC5C1D79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThingsLoan.MVC", "..\ThingsLoan.MVC\ThingsLoan.MVC.csproj", "{4DF01C4E-A90F-4C42-B563-AB2DEC5C1D79}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2EA5818F-018F-444A-AB06-04764DFC1623} = {2EA5818F-018F-444A-AB06-04764DFC1623}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

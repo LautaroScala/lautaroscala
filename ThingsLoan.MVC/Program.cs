@@ -1,7 +1,20 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using ThingsLoan.WebAPI.DataAccess;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddControllers();
+
+
+// Services 
+builder.Services.AddAuthorization();
+
+
 
 var app = builder.Build();
 

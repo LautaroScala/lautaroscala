@@ -144,13 +144,11 @@ namespace ThingsLoan.WebAPI.Migrations
 
             modelBuilder.Entity("ThingsLoan.WebAPI.Entities.Things", b =>
                 {
-                    b.HasOne("ThingsLoan.WebAPI.Entities.Category", "Category")
+                    b.HasOne("ThingsLoan.WebAPI.Entities.Category", null)
                         .WithMany("Things")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("ThingsLoan.WebAPI.Entities.Category", b =>

@@ -1261,6 +1261,19 @@
             "rid": "win"
           }
         }
+      },
+      "DB/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DB.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DB.dll": {}
+        }
       }
     }
   },
@@ -3746,10 +3759,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DB/1.0.0": {
+      "type": "project",
+      "path": "../DB/DB.csproj",
+      "msbuildProject": "../DB/DB.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DB >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.11",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
@@ -3788,7 +3807,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Wo0Fuck\\Desktop\\Curso fullstack\\TP\\DB\\DB.csproj": {
+              "projectPath": "C:\\Users\\Wo0Fuck\\Desktop\\Curso fullstack\\TP\\DB\\DB.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

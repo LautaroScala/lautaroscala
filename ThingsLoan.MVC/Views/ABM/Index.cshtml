@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ThingsLoan.MVC.Models.ThingsViewModel>
+﻿@model IEnumerable<ThingsLoan.MVC.Models.ABMViewModel>
 
 @{
     ViewData["Title"] = "Alumnos";
@@ -9,7 +9,7 @@
 <p>
     <a asp-action="Create">Crear</a>
 </p>
-<form asp-controller="Alumnos" asp-action="Index" method="get"> @*Ver el metodo utilizado*@
+<form asp-controller="ABM" asp-action="Index" method="get"> @*Ver el metodo utilizado*@
     <p>
         Nombre Completo Contiene: 
         <input type="text" name="search" placeholder="Introduzca un filtro" />
