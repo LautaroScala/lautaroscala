@@ -10,5 +10,10 @@ namespace ThingsLoan.WebAPI.DataAccess.Repositories
         {
 
         }
+
+        public Person GetPersonByUsername(string username)
+        {
+            return context.Persons.FirstOrDefault(x => x.Username == username);
+        }
     }
 }

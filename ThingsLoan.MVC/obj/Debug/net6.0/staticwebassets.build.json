@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "7SU0F5S4hX1Ft/1IZ9o8W0y6rd7r8UqIpTRPdtZg548=",
+  "Hash": "AH23H7YQJtYBqIuhDAPwLObXOzjI8ZstAugjc6tZXtk=",
   "Source": "ThingsLoan.MVC",
   "BasePath": "_content/ThingsLoan.MVC",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Wo0Fuck\\Desktop\\Curso fullstack\\TP\\ThingsLoan.WebAPI\\ThingsLoan.WebAPI.csproj",
+      "Version": 2,
+      "Source": "ThingsLoan.WebAPI",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "ThingsLoan.MVC\\wwwroot",

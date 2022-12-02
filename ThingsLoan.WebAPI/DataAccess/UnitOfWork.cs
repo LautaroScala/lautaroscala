@@ -9,12 +9,10 @@ namespace ThingsLoan.WebAPI.DataAccess
         private readonly ThingsContext context;
 
         public IThingRepository ThingsRepository { get;private set; }
-
         public ILoanRepository LoanRepository { get;private set; }
-
         public ICategoryRepository CategoryRepository { get;private set; }
-
         public IPersonRepository PersonRepository { get;private set; }
+
         public UnitOfWork (ThingsContext context) 
         {
             this.context = context;

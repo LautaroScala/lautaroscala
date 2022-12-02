@@ -2,7 +2,7 @@
 {
     public class Entity : BaseEntity
     {
-        public string Description { get; set; }
-        public DateTime CreateTime { get; set; }
+        public string Desc { get; set; }
+        public DateTime CreationDate { get; set; }
     }
 }

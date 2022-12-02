@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "KbTOBXaKc8MQMKDqVVJ2j8ucwNa0xJORUepoSbiC9g14dCp7FkcGIsC9A2eEe6ihmI/cPi1Ry2PzMVW96IThOQ==",
+  "dgSpecHash": "3Q2J6RZ/OEoC8Nvqxk3htBWsPID9DcsXr/ohRq7ZrWDfzDFD1wh4eTfihwF7pn12ezT3pWp7gd+NRb3qshjQLQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Wo0Fuck\\Desktop\\Curso fullstack\\TP\\ThingsLoan.WebAPI\\ThingsLoan.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wo0Fuck\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Wo0Fuck\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Wo0Fuck\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Wo0Fuck\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.11\\microsoft.aspnetcore.authentication.jwtbearer.6.0.11.nupkg.sha512",
     "C:\\Users\\Wo0Fuck\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Wo0Fuck\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Wo0Fuck\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

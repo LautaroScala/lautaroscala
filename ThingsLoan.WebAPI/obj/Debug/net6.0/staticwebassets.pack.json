@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Wo0Fuck\\Desktop\\Curso fullstack\\TP\\ThingsLoan.WebAPI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ThingsLoan.WebAPI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ThingsLoan.WebAPI.bundle.scp.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ThingsLoan.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ThingsLoan.WebAPI.props",
+      "PackagePath": "build\\ThingsLoan.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ThingsLoan.WebAPI.props",
+      "PackagePath": "buildMultiTargeting\\ThingsLoan.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ThingsLoan.WebAPI.props",
+      "PackagePath": "buildTransitive\\ThingsLoan.WebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
