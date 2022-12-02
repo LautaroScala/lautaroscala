@@ -4,5 +4,6 @@ namespace ThingsLoan.WebAPI.DataAccess.RepoInterfaces
 {
     public interface ICategoryRepository : IGenericRepository<Category>
     {
+        public bool CheckDuplicate(string description);
     }
 }

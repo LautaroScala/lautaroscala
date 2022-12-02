@@ -1,13 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
-using ThingsLoan.WebAPI.Entities;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
-namespace ThingsLoan.API.Models
+namespace ThingsLoan.MVC.Models
 {
-    public class ThingsViewModel : Things
+    public class ThingsViewModel
     {
         public int Id { get; set; }
-        [Required(ErrorMessage ="La descripción es obligatoria.")]
-        [MinLength(5, ErrorMessage="La descripcion debe tener al menos 5 caracteres")]
+        [Required(ErrorMessage ="Este campo es obligatorio.")]
         public string Desc { get; set; }
+        public int CategoryId { get; set; }
     }
 }

@@ -10,5 +10,9 @@ namespace ThingsLoan.WebAPI.DataAccess.Repositories
         {
         }
 
+        public bool CheckDuplicate(string description)
+        {
+            return context.Categories.Any(x=> x.Desc == description);
+        }
     }
 }

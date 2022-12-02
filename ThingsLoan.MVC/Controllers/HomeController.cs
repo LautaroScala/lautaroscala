@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using ThingsLoan.API.Models;
+using ThingsLoan.MVC.Models;
 
-namespace ThingsLoan.API.Controllers
+namespace ThingsLoan.MVC.Controllers
 {
     public class HomeController : Controller
     {

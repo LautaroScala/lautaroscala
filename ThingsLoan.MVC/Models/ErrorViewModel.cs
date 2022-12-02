@@ -1,4 +1,4 @@
-namespace ThingsLoan.API.Models
+namespace ThingsLoan.MVC.Models
 {
     public class ErrorViewModel
     {
