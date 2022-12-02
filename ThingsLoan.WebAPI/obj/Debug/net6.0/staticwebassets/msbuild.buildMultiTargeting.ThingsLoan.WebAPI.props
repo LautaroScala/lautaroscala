@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ThingsLoan.WebAPI.props" />
+</Project>

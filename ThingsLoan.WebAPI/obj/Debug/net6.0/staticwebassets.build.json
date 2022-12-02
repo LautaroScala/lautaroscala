@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4WFunPbeuGCyqOEMMHaIPzUfQAKUUnc7ZCac9oESW0c=",
+  "Source": "ThingsLoan.WebAPI",
+  "BasePath": "_content/ThingsLoan.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
