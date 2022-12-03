@@ -79,17 +79,11 @@ C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\obj\Debug\net6.0\refi
 C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\obj\Debug\net6.0\ThingsLoan.MVC.pdb
 C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\obj\Debug\net6.0\ThingsLoan.MVC.genruntimeconfig.cache
 C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\obj\Debug\net6.0\ref\ThingsLoan.MVC.dll
-C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\ThingsLoan.WebAPI.deps.json
-C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\ThingsLoan.WebAPI.runtimeconfig.json
-C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\ThingsLoan.WebAPI.staticwebassets.runtime.json
-C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\ThingsLoan.WebAPI.exe
 C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\ThingsLoan.WebAPI.dll
-C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\ThingsLoan.WebAPI.pdb
 C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\obj\Debug\net6.0\ThingsLoan.MVC.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\Mono.TextTemplating.dll
@@ -97,3 +91,5 @@ C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\Syst
 C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\DB.dll
+C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.MVC\bin\Debug\net6.0\DB.pdb

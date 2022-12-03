@@ -1,5 +1,6 @@
-﻿using ThingsLoan.MVC.Models;
-using ThingsLoan.WebAPI.Entities;
+﻿using DB.DataAccess;
+using DB.Entities;
+using ThingsLoan.MVC.Models;
 
 namespace ThingsLoan.MVC.ExtMethods
 {
@@ -12,7 +13,8 @@ namespace ThingsLoan.MVC.ExtMethods
                 Id = things.Id,
                 Desc = things.Desc,
                 CategoryId = things.CategoryId,
-                CreationDate = things.CreationDate
+                CreationDate = things.CreationDate,
+                Available = things.Available
             };
         }
 
@@ -31,7 +33,7 @@ namespace ThingsLoan.MVC.ExtMethods
                 Id = things.Id,
                 Desc = things.Desc,
                 CategoryId = things.CategoryId,
-                CreationDate = DateTime.UtcNow
+                CreationDate = things.CreationDate
             };
         }
     }

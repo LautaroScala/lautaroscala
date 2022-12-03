@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using DB.DataAccess;
+using DB.DTO;
+using DB.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using ThingsLoan.WebAPI.DataAccess;
-using ThingsLoan.WebAPI.DTO;
-using ThingsLoan.WebAPI.Entities;
 
 namespace ThingsLoan.WebAPI.Controllers
 {
@@ -33,7 +33,8 @@ namespace ThingsLoan.WebAPI.Controllers
                     Id = 0,
                     Desc = thing.Desc,
                     CategoryId = thing.Category.Id,
-                    CreationDate = DateTime.UtcNow
+                    CreationDate = DateTime.UtcNow,
+                    Available = true
 
                 });
             uow.Complete();

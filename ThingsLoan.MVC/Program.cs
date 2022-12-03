@@ -1,8 +1,9 @@
+using DB.DataAccess;
+using DB.DataAccess.Context;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using ThingsLoan.WebAPI.DataAccess;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,8 +14,11 @@ builder.Services.AddControllers();
 
 // Services 
 builder.Services.AddAuthorization();
+builder.Services.AddTransient <IUnitOfWork,UnitOfWork>();
 
-
+builder.Services.AddDbContext<ThingsContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ThingsConnection"))
+);
 
 var app = builder.Build();
 

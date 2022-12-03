@@ -1,11 +1,11 @@
-﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using DB.DTO;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using ThingsLoan.WebAPI.Configuration;
-using ThingsLoan.WebAPI.DTO;
 
 namespace ThingsLoan.WebAPI.Handlers
 {

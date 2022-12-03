@@ -6,7 +6,8 @@ namespace DB.Entities
     {
         public DateTime LoanDate { get; set; }
         public DateTime ReturnDate { get; set; }
-        public Person Person { get; set; }
+        public int PersonId { get; set; }
+        public int ThingId { get; set; }
         public bool Returned { get; set; }
     }
 }

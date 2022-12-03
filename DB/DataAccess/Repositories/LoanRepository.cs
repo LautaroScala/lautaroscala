@@ -10,5 +10,12 @@ namespace DB.DataAccess.Repositories
         {
 
         }
+
+        public List<Loan> GetAllLoansById(int personId)
+        {
+            var allLoans = context.Loans.Where(x => x.PersonId == personId).ToList();
+
+            return allLoans;
+        }
     }
 }

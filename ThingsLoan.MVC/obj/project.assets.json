@@ -1274,26 +1274,6 @@
         "runtime": {
           "bin/placeholder/DB.dll": {}
         }
-      },
-      "ThingsLoan.WebAPI/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "DB": "1.0.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.11",
-          "Microsoft.EntityFrameworkCore": "7.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
-          "Swashbuckle.AspNetCore": "6.2.3"
-        },
-        "compile": {
-          "bin/placeholder/ThingsLoan.WebAPI.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ThingsLoan.WebAPI.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       }
     }
   },
@@ -3784,21 +3764,16 @@
       "type": "project",
       "path": "../DB/DB.csproj",
       "msbuildProject": "../DB/DB.csproj"
-    },
-    "ThingsLoan.WebAPI/1.0.0": {
-      "type": "project",
-      "path": "../ThingsLoan.WebAPI/ThingsLoan.WebAPI.csproj",
-      "msbuildProject": "../ThingsLoan.WebAPI/ThingsLoan.WebAPI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DB >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.11",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
-      "Swashbuckle.AspNetCore >= 6.2.3",
-      "ThingsLoan.WebAPI >= 1.0.0"
+      "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
   "packageFolders": {
@@ -3833,8 +3808,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Wo0Fuck\\Desktop\\Curso fullstack\\TP\\ThingsLoan.WebAPI\\ThingsLoan.WebAPI.csproj": {
-              "projectPath": "C:\\Users\\Wo0Fuck\\Desktop\\Curso fullstack\\TP\\ThingsLoan.WebAPI\\ThingsLoan.WebAPI.csproj"
+            "C:\\Users\\Wo0Fuck\\Desktop\\Curso fullstack\\TP\\DB\\DB.csproj": {
+              "projectPath": "C:\\Users\\Wo0Fuck\\Desktop\\Curso fullstack\\TP\\DB\\DB.csproj"
             }
           }
         }

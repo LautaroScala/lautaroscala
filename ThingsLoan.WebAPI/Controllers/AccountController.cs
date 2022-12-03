@@ -1,8 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using DB.DataAccess;
+using DB.DTO;
+using DB.Entities;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using ThingsLoan.WebAPI.DataAccess;
-using ThingsLoan.WebAPI.DTO;
-using ThingsLoan.WebAPI.Entities;
 using ThingsLoan.WebAPI.Handlers;
 
 namespace ThingsLoan.WebAPI.Controllers
@@ -17,6 +18,13 @@ namespace ThingsLoan.WebAPI.Controllers
         {
             this.jwtHandler = jwtHandler;
             this.uow = uow;
+        }
+        [HttpGet]
+        [Authorize(Roles = "Admin")]
+        public IActionResult GetPersons()
+        {
+            var persons = uow.PersonRepository.GetAll();
+            return Ok(persons);
         }
         [HttpPost("login")]
         public IActionResult Login([FromBody]UserLoginDto user)

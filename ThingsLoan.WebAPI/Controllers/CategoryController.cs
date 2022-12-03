@@ -1,10 +1,10 @@
-﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using DB.DataAccess;
+using DB.DTO;
+using DB.Entities;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using ThingsLoan.WebAPI.DataAccess;
-using ThingsLoan.WebAPI.DTO;
-using ThingsLoan.WebAPI.Entities;
 
 namespace ThingsLoan.WebAPI.Controllers
 {

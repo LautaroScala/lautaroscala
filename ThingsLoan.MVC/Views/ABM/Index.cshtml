@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<ThingsLoan.MVC.Models.ABMViewModel>
 
 @{
-    ViewData["Title"] = "Alumnos";
+    ViewData["Title"] = "ABM de Cosas";
 }
 
 <h1>Index</h1>
@@ -11,7 +11,7 @@
 </p>
 <form asp-controller="ABM" asp-action="Index" method="get"> @*Ver el metodo utilizado*@
     <p>
-        Nombre Completo Contiene: 
+        Filtrar por categoria: 
         <input type="text" name="search" placeholder="Introduzca un filtro" />
     </p>
 </form>
@@ -28,6 +28,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.CategoryId)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Available)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -43,14 +46,15 @@
             <td>
                     @Html.DisplayFor(modelItem => item.CategoryId)
             </td>
+                <td>
+                    @(item.Available ? "Si": "No")
+                </td>
             <td>
-                @*<a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Ver Detalle</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>*@
+                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
-
-@await Html.PartialAsync("_Parcial")

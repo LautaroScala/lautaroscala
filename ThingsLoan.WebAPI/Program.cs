@@ -1,10 +1,10 @@
+using DB.DataAccess;
+using DB.DataAccess.Context;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using ThingsLoan.WebAPI.Configuration;
-using ThingsLoan.WebAPI.DataAccess;
-using ThingsLoan.WebAPI.DataAccess.Context;
 using ThingsLoan.WebAPI.Handlers;
 
 var builder = WebApplication.CreateBuilder(args);

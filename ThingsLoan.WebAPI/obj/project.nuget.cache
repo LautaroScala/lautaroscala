@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "2Exo92qWOER5fYkaouS4Uskz+EeD28sLDAewt6ZgSOZfbcLgiWAlV+ZUjZsNr7sOkbng7CqlC37YGE3SjapQ9g==",
+  "dgSpecHash": "7+Mq7EET+Mw9ow8kxPkDUT2RY6qMyL1IxFhDEzWyr71MyUHplbPswnXNV4ZWjKAh8x/1MD4a6J3HhNjWpGDnyQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Wo0Fuck\\Desktop\\Curso fullstack\\TP\\ThingsLoan.WebAPI\\ThingsLoan.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wo0Fuck\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Wo0Fuck\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\Wo0Fuck\\.nuget\\packages\\google.protobuf\\3.21.10\\google.protobuf.3.21.10.nupkg.sha512",
+    "C:\\Users\\Wo0Fuck\\.nuget\\packages\\grpc.core.api\\2.50.0\\grpc.core.api.2.50.0.nupkg.sha512",
+    "C:\\Users\\Wo0Fuck\\.nuget\\packages\\grpc.net.client\\2.50.0\\grpc.net.client.2.50.0.nupkg.sha512",
+    "C:\\Users\\Wo0Fuck\\.nuget\\packages\\grpc.net.common\\2.50.0\\grpc.net.common.2.50.0.nupkg.sha512",
+    "C:\\Users\\Wo0Fuck\\.nuget\\packages\\grpc.tools\\2.50.0\\grpc.tools.2.50.0.nupkg.sha512",
     "C:\\Users\\Wo0Fuck\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Wo0Fuck\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.11\\microsoft.aspnetcore.authentication.jwtbearer.6.0.11.nupkg.sha512",
     "C:\\Users\\Wo0Fuck\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

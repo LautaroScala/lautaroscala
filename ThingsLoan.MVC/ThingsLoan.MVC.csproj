@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ThingsLoan.WebAPI\ThingsLoan.WebAPI.csproj" />
+    <ProjectReference Include="..\DB\DB.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-﻿using ThingsLoan.WebAPI.DTO;
+﻿using DB.DTO;
 
 namespace ThingsLoan.WebAPI.Handlers
 {

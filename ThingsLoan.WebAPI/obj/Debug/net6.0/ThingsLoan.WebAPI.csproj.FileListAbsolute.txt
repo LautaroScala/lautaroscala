@@ -87,3 +87,5 @@ C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.WebAPI\obj\Debug\net6.0\T
 C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.WebAPI\obj\Debug\net6.0\ref\ThingsLoan.WebAPI.dll
 C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.WebAPI\bin\Debug\net6.0\ThingsLoan.WebAPI.staticwebassets.runtime.json
+C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.WebAPI\bin\Debug\net6.0\DB.dll
+C:\Users\Wo0Fuck\Desktop\Curso fullstack\TP\ThingsLoan.WebAPI\bin\Debug\net6.0\DB.pdb

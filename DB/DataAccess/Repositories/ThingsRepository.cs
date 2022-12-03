@@ -15,5 +15,15 @@ namespace DB.DataAccess.Repositories
         {
             return context.Things.FirstOrDefault(x => x.Desc == desc);
         }
+
+        public List<Things> FilterByDesc(string desc)
+        {
+            if (string.IsNullOrEmpty(desc))
+                return context.Things.ToList();
+            var loweredSearch = desc.ToLowerInvariant();
+            var filteredResults = context.Things
+                .Where(x => x.Desc.ToLowerInvariant().Contains(loweredSearch)).ToList();
+            return filteredResults;
+        }
     }
 }
