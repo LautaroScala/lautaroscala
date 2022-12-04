@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "ThingsLoan.WebAPI.Protos";
+
+service ReturnLoan {
+  rpc ReturnThing (ThingLoanDto) returns (ReplyLoan);
+}
+
+message ThingLoanDto {
+  int32 LoanId = 1;
+  int32 ThingId = 2;
+  int32 PersonId = 3;
+}
+
+message ReplyLoan {
+  string message = 1;
+}
