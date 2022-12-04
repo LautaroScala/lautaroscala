@@ -1,0 +1,5 @@
+<h1 class="titulo">Bienvenido al sistema de prestamo de objetos!</h1>
+<div class="divsize">
+<p *ngIf="!getToken()">Por favor logueate para continuar, o registrate si sos nuevo.</p>
+<app-lista-prestamos *ngIf="getToken()"></app-lista-prestamos>
+</div>

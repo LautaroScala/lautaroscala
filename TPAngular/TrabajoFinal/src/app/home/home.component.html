@@ -1,0 +1,41 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="'navigation'"
+      [mode]="'side'"
+      [opened]="">
+    <mat-toolbar>Menu</mat-toolbar>
+    <mat-nav-list>
+      <a mat-list-item 
+        routerLink="/" 
+        (click)="drawer.toggle()"
+        >Home</a>
+      <a mat-list-item 
+        routerLink="/login"
+        (click)="drawer.toggle()"
+        *ngIf="!getToken()"
+        >Logueate</a>
+      <a mat-list-item 
+        routerLink="/register"
+        (click)="drawer.toggle()"
+        *ngIf="!getToken()"
+        >Registrate</a>
+      <a mat-list-item href="#" *ngIf="getToken()"(click)="drawer.toggle()">Alta de Categorias</a>
+      <a mat-list-item href="#" *ngIf="getToken()"(click)="drawer.toggle()">Prestamos</a>
+      <a mat-list-item href="#" *ngIf="getToken()"(click)="drawer.toggle()" (click)="logout()">Logout</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()">
+        <mat-icon aria-label="">menu</mat-icon>
+      </button>
+      <span>TrabajoFinal</span>
+    </mat-toolbar>
+    <!-- Add Content Here -->
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

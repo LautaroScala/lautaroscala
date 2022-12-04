@@ -42,7 +42,7 @@ namespace ThingsLoan.WebAPI.Controllers
                 new UserLoginDto { Username = dbUser.Username, Password = dbUser.Password },
                 new List<string> { dbUser.Role }
                 );
-            return Ok(new { token = bearer });
+            return Ok(new { token = bearer , userId = dbUser.Id});
         }
         [HttpPost("register")]
         public IActionResult Register([FromBody]PersonDto user) 

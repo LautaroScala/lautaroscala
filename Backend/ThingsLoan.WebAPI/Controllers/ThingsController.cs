@@ -17,7 +17,7 @@ namespace ThingsLoan.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,User")]
         public IActionResult GetListOfThings()
         {
             var dbThings = uow.ThingsRepository.GetAll();

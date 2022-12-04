@@ -20,7 +20,7 @@ namespace ThingsLoan.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Admin",AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize(Roles = "Admin,User",AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public IActionResult GetCategories()
         {
             uow.CategoryRepository.GetAll();
