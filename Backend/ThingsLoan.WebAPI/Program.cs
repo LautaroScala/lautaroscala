@@ -57,6 +57,16 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddDbContext<ThingsContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ThingsConnection"))
 );
+var corspolicy = "mycorspolicy";
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(
+                      policy =>
+                      {
+                          policy.WithOrigins("http://localhost:4200",
+                                              "http://localhost:5000").AllowAnyHeader().AllowAnyMethod();
+                      });
+});
 var app = builder.Build();
 
 
@@ -69,13 +79,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-
+app.UseCors();
 app.UseHttpsRedirection();
+
 
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapGrpcReflectionService();
 app.MapGrpcService<ReturnLoanService>();
+
 
 app.MapControllers();
 app.Run();
