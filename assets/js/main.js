@@ -1,8 +1,12 @@
-/*
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
+document.getElementById('languageButton').addEventListener('click', function() {
+    var menu = document.getElementById('languageOptions');
+    if (menu.classList.contains('hidden')) {
+        menu.classList.remove('hidden');
+    } else {
+        menu.classList.add('hidden');
+    }
+});
 
 (function($) {
 
