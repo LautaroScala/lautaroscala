@@ -28,6 +28,9 @@
     color: #fff !important;
     background: #383838;
 }
+#languageOptions a {
+  padding-inline: 13px;
+}
 
 .flag-icon {
   margin-right: 10px;
