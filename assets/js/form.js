@@ -24,6 +24,6 @@ document.getElementById("contactForm").addEventListener("submit", function(event
         alert("Enviado con exito! Gracias por contactarme!")
       })
       .catch(error => {
-        alert(`${error}`)
+        alert("¡Algo salio mal! Intenta más tarde")
       })
   });
